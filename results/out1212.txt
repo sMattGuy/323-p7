@@ -1,0 +1,753 @@
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	1	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	1	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	1	0	0	0	
+8	1	0	0	0	0	0	1	0	1	0	0	
+9	1	0	1	0	0	0	0	0	0	1	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Starting Step 3
+Starting Step 4
+0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, Starting Step 5
+Finding next orphan
+looping:1
+found
+fillOpen new node: 1, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	1	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	1	0	0	0	
+8	1	0	0	0	0	0	1	0	1	0	0	
+9	1	0	1	0	0	0	0	0	0	1	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+found
+fillOpen new node: 5, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	1	0	0	0	
+8	1	0	0	0	0	0	1	0	1	0	0	
+9	1	0	1	0	0	0	0	0	0	1	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+found
+fillOpen new node: 7, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->(7, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	1	0	0	
+9	1	0	1	0	0	0	0	0	0	1	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+found
+fillOpen new node: 8, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->(7, 1)->(8, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	1	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+looping:9
+found
+fillOpen new node: 9, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->(7, 1)->(8, 1)->(9, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	1	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+looping:9
+looping:10
+found
+fillOpen new node: 10, 1
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->(7, 1)->(8, 1)->(9, 1)->(10, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	10	0	2	1	2	0	6	0	0	0	0	
+1	3	2	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+looping:9
+looping:10
+Printing OPEN LinkedList......
+(-1, -1)->(1, 1)->(5, 1)->(7, 1)->(8, 1)->(9, 1)->(10, 1)->NULL
+Starting Step 6
+Next Proc:0
+Removed Node:1, 1
+procs used:1
+=====TABLE START=====
+Proc Used: 1  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:1
+Removed Node:5, 1
+procs used:2
+=====TABLE START=====
+Proc Used: 2  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:2
+Removed Node:7, 1
+procs used:3
+=====TABLE START=====
+Proc Used: 3  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:3
+Removed Node:8, 1
+procs used:4
+=====TABLE START=====
+Proc Used: 4  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:4
+Removed Node:9, 1
+procs used:5
+=====TABLE START=====
+Proc Used: 5  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:5
+Removed Node:10, 1
+procs used:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Next Proc:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+Starting Step 9
+Starting Step 7
+Starting Step 8
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	9	0	1	0	1	0	6	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	2	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	8	0	1	0	1	0	5	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	2	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	7	0	1	0	1	0	4	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	2	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	6	0	1	0	1	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	2	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	5	0	0	0	1	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	2	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	4	0	0	0	0	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	1	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Starting Step 5
+Finding next orphan
+looping:1
+looping:2
+found
+fillOpen new node: 2, 1
+Printing OPEN LinkedList......
+(-1, -1)->(2, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	4	0	0	0	0	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	2	0	0	0	1	0	0	0	0	
+3	1	0	0	1	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+found
+fillOpen new node: 3, 1
+Printing OPEN LinkedList......
+(-1, -1)->(2, 1)->(3, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	4	0	0	0	0	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	2	0	0	0	1	0	0	0	0	
+3	1	0	0	2	0	0	1	0	0	0	0	
+4	1	0	0	0	1	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+found
+fillOpen new node: 4, 1
+Printing OPEN LinkedList......
+(-1, -1)->(2, 1)->(3, 1)->(4, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	4	0	0	0	0	0	3	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	2	0	0	0	1	0	0	0	0	
+3	1	0	0	2	0	0	1	0	0	0	0	
+4	1	0	0	0	2	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+looping:9
+looping:10
+Printing OPEN LinkedList......
+(-1, -1)->(2, 1)->(3, 1)->(4, 1)->NULL
+Starting Step 6
+Next Proc:0
+Removed Node:2, 1
+procs used:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+Proc: 4 |8	|
+Proc: 5 |9	|
+Proc: 6 |10	|
+Proc: 7 |0	|
+Proc: 8 |0	|
+Proc: 9 |0	|
+Proc: 10 |0	|
+=====TABLE END=====
+Next Proc:1
+Removed Node:3, 1
+procs used:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+Proc: 4 |8	|
+Proc: 5 |9	|
+Proc: 6 |10	|
+Proc: 7 |0	|
+Proc: 8 |0	|
+Proc: 9 |0	|
+Proc: 10 |0	|
+=====TABLE END=====
+Next Proc:2
+Removed Node:4, 1
+procs used:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+Proc: 4 |8	|
+Proc: 5 |9	|
+Proc: 6 |10	|
+Proc: 7 |0	|
+Proc: 8 |0	|
+Proc: 9 |0	|
+Proc: 10 |0	|
+=====TABLE END=====
+Next Proc:3
+=====TABLE START=====
+Proc Used: 6  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+Proc: 4 |8	|
+Proc: 5 |9	|
+Proc: 6 |10	|
+Proc: 7 |0	|
+Proc: 8 |0	|
+Proc: 9 |0	|
+Proc: 10 |0	|
+=====TABLE END=====
+Starting Step 9
+Starting Step 7
+Starting Step 8
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	3	0	0	0	0	0	2	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	2	0	0	1	0	0	0	0	
+4	1	0	0	0	2	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	2	0	0	0	0	0	1	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	2	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	1	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	1	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	1	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	1	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	1	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Starting Step 5
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+found
+fillOpen new node: 6, 1
+Printing OPEN LinkedList......
+(-1, -1)->(6, 1)->NULL
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	1	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	2	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Finding next orphan
+looping:1
+looping:2
+looping:3
+looping:4
+looping:5
+looping:6
+looping:7
+looping:8
+looping:9
+looping:10
+Printing OPEN LinkedList......
+(-1, -1)->(6, 1)->NULL
+Starting Step 6
+Next Proc:0
+Removed Node:6, 1
+procs used:6
+=====TABLE START=====
+Proc Used: 6  currentTime: 2
+Time:	|1	|2	|
+Proc: 1 |1	|2	|
+Proc: 2 |5	|3	|
+Proc: 3 |7	|4	|
+Proc: 4 |8	|0	|
+Proc: 5 |9	|0	|
+Proc: 6 |10	|0	|
+Proc: 7 |0	|0	|
+Proc: 8 |0	|0	|
+Proc: 9 |0	|0	|
+Proc: 10 |0	|0	|
+=====TABLE END=====
+Next Proc:1
+=====TABLE START=====
+Proc Used: 6  currentTime: 2
+Time:	|1	|2	|
+Proc: 1 |1	|2	|
+Proc: 2 |5	|3	|
+Proc: 3 |7	|4	|
+Proc: 4 |8	|0	|
+Proc: 5 |9	|0	|
+Proc: 6 |10	|0	|
+Proc: 7 |0	|0	|
+Proc: 8 |0	|0	|
+Proc: 9 |0	|0	|
+Proc: 10 |0	|0	|
+=====TABLE END=====
+Starting Step 9
+Starting Step 7
+Starting Step 8
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	
+Printing Matrix...
+ 	0	1	2	3	4	5	6	7	8	9	10	
+0	0	0	0	0	0	0	0	0	0	0	0	
+1	3	0	1	1	1	0	0	0	0	0	0	
+2	1	0	0	0	0	0	1	0	0	0	0	
+3	1	0	0	0	0	0	1	0	0	0	0	
+4	1	0	0	0	0	0	1	0	0	0	0	
+5	1	0	0	0	0	0	1	0	0	0	0	
+6	0	0	0	0	0	0	0	0	0	0	0	
+7	1	0	0	0	0	0	1	0	0	0	0	
+8	1	0	0	0	0	0	1	0	0	0	0	
+9	1	0	1	0	0	0	0	0	0	0	0	
+10	1	0	0	0	1	0	0	0	0	0	0	

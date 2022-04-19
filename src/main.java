@@ -310,12 +310,12 @@ class Schedule{
 		System.out.println("=====TABLE START=====");
 		System.out.println("Proc Used: " + this.procUsed + "  currentTime: " + currentTime);
 		System.out.print("Time:\t|");
-		for(int i=0;i<=currentTime;i++){
-			System.out.print(i + "\t|");
+		for(int i=0;i<currentTime;i++){
+			System.out.print((i+1) + "\t|");
 		}
 		for(int i=0;i<this.numProcs;i++){
 			System.out.print("\nProc: "+(i+1)+" |");
-			for(int j=0;j<=currentTime;j++){
+			for(int j=0;j<currentTime;j++){
 				System.out.print(this.Table[i][j] + "\t|");
 			}
 		}

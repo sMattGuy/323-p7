@@ -1,0 +1,70 @@
+=====TABLE START=====
+Proc Used: 0  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 6  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+Proc: 4 |
+Proc: 5 |
+Proc: 6 |
+Proc: 7 |
+Proc: 8 |
+Proc: 9 |
+Proc: 10 |
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 6  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+Proc: 4 |8	|
+Proc: 5 |9	|
+Proc: 6 |10	|
+Proc: 7 |0	|
+Proc: 8 |0	|
+Proc: 9 |0	|
+Proc: 10 |0	|
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 6  currentTime: 2
+Time:	|1	|2	|
+Proc: 1 |1	|2	|
+Proc: 2 |5	|3	|
+Proc: 3 |7	|4	|
+Proc: 4 |8	|0	|
+Proc: 5 |9	|0	|
+Proc: 6 |10	|0	|
+Proc: 7 |0	|0	|
+Proc: 8 |0	|0	|
+Proc: 9 |0	|0	|
+Proc: 10 |0	|0	|
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 6  currentTime: 3
+Time:	|1	|2	|3	|
+Proc: 1 |1	|2	|6	|
+Proc: 2 |5	|3	|0	|
+Proc: 3 |7	|4	|0	|
+Proc: 4 |8	|0	|0	|
+Proc: 5 |9	|0	|0	|
+Proc: 6 |10	|0	|0	|
+Proc: 7 |0	|0	|0	|
+Proc: 8 |0	|0	|0	|
+Proc: 9 |0	|0	|0	|
+Proc: 10 |0	|0	|0	|
+=====TABLE END=====

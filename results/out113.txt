@@ -1,0 +1,42 @@
+=====TABLE START=====
+Proc Used: 0  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 3  currentTime: 0
+Time:	|
+Proc: 1 |
+Proc: 2 |
+Proc: 3 |
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 3  currentTime: 1
+Time:	|1	|
+Proc: 1 |1	|
+Proc: 2 |5	|
+Proc: 3 |7	|
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 3  currentTime: 2
+Time:	|1	|2	|
+Proc: 1 |1	|8	|
+Proc: 2 |5	|9	|
+Proc: 3 |7	|10	|
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 3  currentTime: 3
+Time:	|1	|2	|3	|
+Proc: 1 |1	|8	|3	|
+Proc: 2 |5	|9	|2	|
+Proc: 3 |7	|10	|4	|
+=====TABLE END=====
+=====TABLE START=====
+Proc Used: 3  currentTime: 4
+Time:	|1	|2	|3	|4	|
+Proc: 1 |1	|8	|3	|6	|
+Proc: 2 |5	|9	|2	|0	|
+Proc: 3 |7	|10	|4	|0	|
+=====TABLE END=====
