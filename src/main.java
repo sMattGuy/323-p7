@@ -147,7 +147,7 @@ class Schedule{
 			totalTime += jobTime;
 		}
 		for(int i=0;i<this.numNodes+1;i++){
-			System.out.println(this.jobTimeArray[i] + ", ");
+			System.out.print(this.jobTimeArray[i] + ", ");
 		}
 		return totalTime;
 	}
@@ -277,14 +277,20 @@ class Schedule{
 		while(availProc >= 0 && this.Open.next != null && this.procUsed <= this.numProcs){
 			Node newJob = this.Open.next;
 			this.Open.next = newJob.next;
+			
 			System.out.println("Removed Node:"+newJob.jobID+", "+newJob.jobTime);
+			
 			this.putJobOnTable(availProc, currentTime, newJob.jobID, newJob.jobTime);
 			if(availProc+1 > this.procUsed)
 				this.procUsed++;
+			
 			System.out.println("procs used:"+this.procUsed);
+			
 			this.printTable(outFile2, currentTime);
 			availProc = this.getNextProc(currentTime);
+			
 			System.out.println("Next Proc:"+availProc);
+			
 			if(availProc == -1){
 				break;
 			}
@@ -301,20 +307,19 @@ class Schedule{
 	}
 	void printTable(PrintStream outFile1, int currentTime){
 		System.setOut(outFile1);
-		System.out.println("Printing Table");
+		System.out.println("=====TABLE START=====");
 		System.out.println("Proc Used: " + this.procUsed + "  currentTime: " + currentTime);
 		System.out.print("Time:\t|");
 		for(int i=0;i<=currentTime;i++){
-			System.out.print(i + "|");
+			System.out.print(i + "\t|");
 		}
 		for(int i=0;i<this.numProcs;i++){
 			System.out.print("\nProc: "+(i+1)+" |");
 			for(int j=0;j<=currentTime;j++){
-				System.out.print(this.Table[i][j] + "|");
+				System.out.print(this.Table[i][j] + "\t|");
 			}
-			System.out.print("\n");
 		}
-		System.out.println("\n=====END=====");
+		System.out.println("\n=====TABLE END=====");
 	}
 	/*
 		check related methods
@@ -347,7 +352,7 @@ class Schedule{
 	void deleteJob(int jobID){
 		this.Matrix[jobID][jobID] = 0;
 		this.Matrix[0][0]--;
-		for(int j=1;j<this.numNodes;j++){
+		for(int j=1;j<this.numNodes+1;j++){
 			if(this.Matrix[jobID][j] > 0)
 				this.Matrix[0][j]--;
 		}
