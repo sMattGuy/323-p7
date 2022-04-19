@@ -59,6 +59,14 @@ public class Main{
 			System.out.println("Starting Step 6");
 			sched.fillTable(currentTime, output2);
 			sched.printTable(output1, currentTime);
+			//step 9
+			System.setOut(output2);
+			System.out.println("Starting Step 9");
+			if(sched.checkCycle(currentTime)){
+				System.setOut(output1);
+				System.out.println("Error! There is a cycle in the graph");
+				return;
+			}
 			//step 7
 			System.setOut(output2);
 			System.out.println("Starting Step 7");
@@ -67,13 +75,6 @@ public class Main{
 			System.setOut(output2);
 			System.out.println("Starting Step 8");
 			sched.deleteDoneJobs(currentTime, output2);
-			//step 9
-			System.setOut(output2);
-			System.out.println("Starting Step 9");
-			if(sched.checkCycle()){
-				System.out.println("Error! There is a cycle in the graph");
-				return;
-			}
 		}
 		//step 11
 		sched.printTable(output1, currentTime);
@@ -318,14 +319,11 @@ class Schedule{
 	/*
 		check related methods
 	*/
-	boolean checkCycle(){
-		if(this.Open.next != null)
-			return false;
-		if(this.Matrix[0][0] != 0)
-			return false;
-		if(this.procUsed != 0)
-			return false;
-		return true;
+	boolean checkCycle(int currentTime){
+		if(this.Open.next == null && this.Matrix[0][0] != 0 && this.checkAllProcAvailable(currentTime)){
+			return true;
+		}
+		return false;
 	}
 	boolean isGraphEmpty(){
 		if(this.Matrix[0][0] == 0)
@@ -353,5 +351,13 @@ class Schedule{
 			if(this.Matrix[jobID][j] > 0)
 				this.Matrix[0][j]--;
 		}
+	}
+	boolean checkAllProcAvailable(int currentTime){
+		for(int i=0;i<this.numProcs;i++){
+			if(Table[i][currentTime] != 0){
+				return false;
+			}
+		}
+		return true;
 	}
 }
